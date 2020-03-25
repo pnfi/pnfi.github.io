@@ -1,0 +1,64 @@
+span.titulo{
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	padding: 4px;
+	width: 100%;
+	background-color: #e7e7ee;
+	margin: 0px auto 2px auto;
+	border-radius: 4px;
+	border:solid #555;
+	border-width: 0px 0px 2px 0px;
+}
+
+hr{
+	background-color: #c7c7cc;
+	width: 98%;
+	height: 4px;
+	border:solid 1px #333;
+	border-radius: 2px;
+	margin: 2px auto;
+	}
+
+pre{overflow:auto;}
+code{white-space:pre-wrap;}
+textarea{
+	resize:vertical;
+	width: 100%;
+	height: 200px;
+	margin: 0px auto 2px auto;
+	display:block;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	padding: 4px;
+	}
+
+.centrar{text-align: center;}
+
+header{display:table; height: 48px; width: 100%; text-align: center; font-style: italic; font-size: 24px;}
+header.presentacion>span{display:table-cell; padding-top: 12px;}
+.ico_menu{height: 48px; width: 48px; background-color: #007add; }
+
+main{display: table; width: 100%; padding: 6px; background-color: #ededed; margin: 4px 0px; box-sizing: border-box;}
+main.presentacion>:nth-child(1){ vertical-align: middle; display:table-cell; width: 128px;}
+main.presentacion>:nth-child(2){ vertical-align: middle; display:table-cell; width: calc(100% - 134px); border:solid 2px #fff; background-color:  rgba(255, 255, 255, 0.5); }
+main.presentacion p {text-align: justify; padding: 6px;}
+
+.p-6{padding: 6px; margin: 0px 6px 6px 6px;}
+.estudios p {width: 100%;}
+.estudios p::first-line,.experiencia_laboral~p::first-line {font-weight: bold; font-size: 18px;  }
+
+
+.datos_personales{display: none;}
+
+
+div.ocultar{display: none;}
+input[name="menu"]{display: none; }
+
+input[name="menu"][id="carta_presentacion"]:checked~div[id="ficha0"]{display:initial;}
+input[name="menu"][id="datos_personales"]:checked~div[id="ficha1"]{display:initial;}
+input[name="menu"][id="estudios"]:checked~div[id="ficha2"]{display:initial;}
+input[name="menu"][id="experiencia_laboral"]:checked~div[id="ficha3"]{display:initial;}
+input[name="menu"][id="recomendaciones"]:checked~div[id="ficha4"]{display:initial;}
+input[name="menu"][id="certificados"]:checked~div[id="ficha5"]{display:initial;}

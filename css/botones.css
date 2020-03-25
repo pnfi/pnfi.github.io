@@ -1,0 +1,37 @@
+/*--------------------------------- 
+Botones
+---------------------------------*/
+boton{
+	color: #333;
+	font-size: 12px;
+	margin-right: -4px;
+	position: relative;
+	border:solid;
+	border-color: #eee;
+	border-width: 1px;
+	cursor:pointer;
+	text-decoration:none;
+	text-align:center;
+	display:inline-block;
+	list-style: none;
+	box-sizing:border-box;
+	border-radius:3px;
+	padding: 3px 10px;
+	}
+boton.fondo_negro{color: #fff;}
+
+boton:hover{
+	border-color: #ccc;
+	box-shadow: inset 0px 1px 1px 2px #ccc;
+	}
+
+boton:active{color:#333; border-color: #eee; box-shadow: inset 0px 1px 1px 2px #eee;}
+boton:active.fondo_negro{color:#fff;}
+
+	/*--------------------------------- 
+	tamaños
+	---------------------------------*/
+	.boton_compacto{padding: 4px 12px; font-size: 14px;}
+	.boton_mediano{padding: 5px 14px; font-size: 16px;}
+	.boton_grande{padding: 6px 16px; font-size: 18px;}
+	.boton_block{display:block; margin:0px;}

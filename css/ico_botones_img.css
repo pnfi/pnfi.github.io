@@ -1,0 +1,291 @@
+/*--------------------------------- 
+div oculto
+---------------------------------*/
+
+/*--------------------------------- 
+Input, textarea
+---------------------------------*/
+input,textarea{margin:auto;text-align:center; background-color:#EEE;background-size:1.5rem;background-position: 1rem center;background-repeat: no-repeat; border:0px; padding:0rem 1rem 0rem 3rem; border-radius:16px; border:solid 2px #4488CC; height:2rem; transition:all .5s ease; display:block;}
+input:hover,textarea:hover{background-color:#fff;transition:all .5s ease;}
+input[type=search]{width:50%;}
+input:hover[type=search]{width:100%;}
+
+
+
+/*--------------------------------- 
+Tooltip - Personalizar estas 2 lineas para usarlo
+ico~tooltip{margin-left:8rem; margin-top:-3rem; }
+ico:hover+tooltip{display:block;}
+---------------------------------*/
+
+
+
+tooltip{display:none; z-index:10; position:absolute; background-color:#ffcc00;; padding:.5rem .5rem .5rem 2rem; border-radius:.5rem; font-weight:bold; border:solid .075rem #c7c7cc; background-position:left center; background-repeat:no-repeat; background-image: url("../img/48.png"); background-size:2rem;width:256px;}
+
+ico:hover+tooltip,p:hover+tooltip,input:hover+tooltip,ico:hover tooltip,p:hover tooltip{display:inline-block;}
+
+
+/*--------------------------------- 
+libreria img
+---------------------------------*/
+.lib_img>fieldset{display:table; box-sizing:border-box;}
+.lib_img>fieldset>p{width:50%; display:table-cell; box-sizing:border-box; border-radius:4px;}
+.lib_img>fieldset>p+ul{width:50%; display:table-cell; box-sizing:border-box; border-radius:4px; text-align:left;}
+
+.lib_img hr {border:none;width:300px;height:16px;background-position:center center;background-repeat:no-repeat;background-size:16px, 100%;background-image: url("../img/67.png"), linear-gradient(90deg, #ffffff 16px, #888444 64px, 236px, #ffffff); margin:10px auto;}
+
+.lib_img>div{display:inline-block; margin:2px;}
+.lib_img>div>div{ padding:2px; border:solid #888444; border-width: 2px 2px 0px 2px; background-color:#EEE;}
+.lib_img>div>div~div{background-color:#888844; border-radius: 0px 0px 4px 4px; text-align:center; font-weight: bold;}
+
+/*--------------------------------- 
+etiqueta img
+---------------------------------*/
+img{padding:.25rem; margin:.25rem; border-radius:.5rem; background-position:center; background-repeat:no-repeat; border:solid .05rem #c7c7cc; }
+.img_small{width:4rem; height:4rem;background-size:4rem;background-position:center;}
+.img_medium{width:8rem; height:8rem;background-size:8rem;}
+.img_big{width:16rem; height:16rem;background-size:16rem;}
+	/*--------------------------------- 
+	Imagenes
+	---------------------------------*/
+	.img1{background-image: url("../img/1.png") ; }
+	.img2{background-image: url("../img/2.png"); }
+	.img3{background-image: url("../img/3.png"); }
+	.img4{background-image: url("../img/4.png"); }
+	.img5{background-image: url("../img/5.png"); }
+	.img6{background-image: url("../img/6.png"); }
+	.img7{background-image: url("../img/7.png"); }
+	.img8{background-image: url("../img/8.png"); }
+	.img9{background-image: url("../img/9.png"); }
+	.img10{background-image: url("../img/10.png"); }
+	.img11{background-image: url("../img/11.png"); }
+	.img12{background-image: url("../img/12.png"); }
+	.img13{background-image: url("../img/13.png"); }
+	.img14{background-image: url("../img/14.png"); }
+	.img15{background-image: url("../img/15.png"); }
+	.img16{background-image: url("../img/16.png"); }
+	.img17{background-image: url("../img/17.png"); }
+	.img18{background-image: url("../img/18.png"); }
+	.img19{background-image: url("../img/19.png"); }
+	.img20{background-image: url("../img/20.png"); }
+	.img21{background-image: url("../img/21.png"); }
+	.img22{background-image: url("../img/22.png"); }
+	.img23{background-image: url("../img/23.png"); }
+	.img24{background-image: url("../img/24.png"); }
+	.img25{background-image: url("../img/25.png"); }
+	.img26{background-image: url("../img/26.png"); }
+	.img27{background-image: url("../img/27.png"); }
+	.img28{background-image: url("../img/28.png"); }
+	.img29{background-image: url("../img/29.png"); }
+	.img30{background-image: url("../img/30.png"); }
+	.img31{background-image: url("../img/31.png"); }
+	.img32{background-image: url("../img/32.png"); }
+	.img33{background-image: url("../img/33.png"); }
+	.img34{background-image: url("../img/34.png"); }
+	.img35{background-image: url("../img/35.png"); }
+	.img36{background-image: url("../img/36.png"); }
+	.img37{background-image: url("../img/37.png"); }
+	.img38{background-image: url("../img/38.png"); }
+	.img39{background-image: url("../img/39.png"); }
+	.img40{background-image: url("../img/40.png"); }
+	.img41{background-image: url("../img/41.png"); }
+	.img42{background-image: url("../img/42.png"); }
+	.img43{background-image: url("../img/43.png"); }
+	.img44{background-image: url("../img/44.png"); }
+	.img45{background-image: url("../img/45.png"); }
+	.img46{background-image: url("../img/46.png"); }
+	.img47{background-image: url("../img/47.png"); }
+	.img48{background-image: url("../img/48.png"); }
+	.img49{background-image: url("../img/49.png"); }
+	.img50{background-image: url("../img/50.png"); }
+	.img51{background-image: url("../img/51.png"); }
+	.img52{background-image: url("../img/52.png"); }
+	.img53{background-image: url("../img/53.png"); }
+	.img54{background-image: url("../img/54.png"); }
+	.img55{background-image: url("../img/55.png"); }
+	.img56{background-image: url("../img/56.png"); }
+	.img57{background-image: url("../img/57.png"); }
+	.img58{background-image: url("../img/58.png"); }
+	.img59{background-image: url("../img/59.png"); }
+	.img60{background-image: url("../img/60.png"); }
+	.img61{background-image: url("../img/61.png"); }
+	.img62{background-image: url("../img/62.png"); }
+	.img63{background-image: url("../img/63.png"); }
+	.img64{background-image: url("../img/64.png"); }
+	.img65{background-image: url("../img/65.png"); }
+	.img66{background-image: url("../img/66.png"); }
+	.img67{background-image: url("../img/67.png"); }
+	.img68{background-image: url("../img/68.png"); }
+	.img69{background-image: url("../img/69.png"); }
+	.img70{background-image: url("../img/70.png"); }
+	.img71{background-image: url("../img/71.png"); }
+	.img72{background-image: url("../img/72.png"); }
+	.img73{background-image: url("../img/73.png"); }
+	.img74{background-image: url("../img/74.png"); }
+	.img75{background-image: url("../img/75.png"); }
+	.img76{background-image: url("../img/76.png"); }
+	.img77{background-image: url("../img/77.png"); }
+	.img78{background-image: url("../img/78.png"); }
+	.img79{background-image: url("../img/79.png"); }
+	.img80{background-image: url("../img/80.png"); }
+	.img81{background-image: url("../img/81.png"); }
+	.img82{background-image: url("../img/82.png"); }
+	.img83{background-image: url("../img/83.png"); }
+	.img84{background-image: url("../img/84.png"); }
+	.img85{background-image: url("../img/85.png"); }
+	.img86{background-image: url("../img/86.png"); }
+	.img87{background-image: url("../img/87.png"); }
+	.img88{background-image: url("../img/88.png"); }
+	.img89{background-image: url("../img/89.png"); }
+	.img90{background-image: url("../img/90.png"); }
+	.img91{background-image: url("../img/91.png"); }
+	.img92{background-image: url("../img/92.png"); }
+	.img93{background-image: url("../img/93.png"); }
+	.img94{background-image: url("../img/94.png"); }
+	.img95{background-image: url("../img/95.png"); }
+	.img96{background-image: url("../img/96.png"); }
+	.img97{background-image: url("../img/97.png"); }
+	.img98{background-image: url("../img/98.png"); }
+	.img99{background-image: url("../img/99.png"); }
+	.img100{background-image: url("../img/100.png"); }
+
+
+
+/*--------------------------------- 
+Iconos
+---------------------------------*/
+ico{margin:.125rem;cursor:pointer; text-decoration:none; text-align:center; display:inline-block;  list-style: none; padding:.5rem; box-sizing:border-box; transition:all .5s ease; }
+ico:hover{transition:all .5s ease; border-radius:50%;}
+ico:active{background-color:#fff; transition:color .2s ease;}
+ico:before{content:"";height:2rem; width:auto; display:block; margin:auto; background-position: center center;background-repeat: no-repeat; background-size:2rem;}
+.ico:hover{border:solid 1px #AAA;}
+.ico:active{border:solid 1px #777;}
+
+	/*--------------------------------- 
+	tamaños
+	---------------------------------*/
+	.ico_small:before{background-size:2rem; height:2rem; width:2rem; padding:0.5rem;}
+	.ico_small{font-size:1rem; }
+	
+	.ico_medium:before{background-size:3rem; height:3rem; width:3rem;padding:0.5rem;}
+	.ico_medium{font-size:1.5rem;}
+	
+	.ico_big:before{background-size:4rem; height:4rem; width:4rem;padding:0.5rem;}
+	.ico_big{ font-size:2rem;}
+	
+	/*--------------------------------- 
+	Imagenes para iconos
+	---------------------------------*/
+	.ico1:before{content:"";background-image: url("../img/1.png") ; }
+	.ico2:before{content:"";background-image: url("../img/2.png"); }
+	.ico3:before{content:"";background-image: url("../img/3.png"); }
+	.ico4:before{content:"";background-image: url("../img/4.png"); }
+	.ico5:before{content:"";background-image: url("../img/5.png"); }
+	.ico6:before{content:"";background-image: url("../img/6.png"); }
+	.ico7:before{content:"";background-image: url("../img/7.png"); }
+	.ico8:before{content:"";background-image: url("../img/8.png"); }
+	.ico9:before{content:"";background-image: url("../img/9.png"); }
+	.ico10:before{content:"";background-image: url("../img/10.png"); }
+	.ico11:before{content:"";background-image: url("../img/11.png"); }
+	.ico12:before{content:"";background-image: url("../img/12.png"); }
+	.ico13:before{content:"";background-image: url("../img/13.png"); }
+	.ico14:before{content:"";background-image: url("../img/14.png"); }
+	.ico15:before{content:"";background-image: url("../img/15.png"); }
+	.ico16:before{content:"";background-image: url("../img/16.png"); }
+	.ico17:before{content:"";background-image: url("../img/17.png"); }
+	.ico18:before{content:"";background-image: url("../img/18.png"); }
+	.ico19:before{content:"";background-image: url("../img/19.png"); }
+	.ico20:before{content:"";background-image: url("../img/20.png"); }
+	.ico21:before{content:"";background-image: url("../img/21.png"); }
+	.ico22:before{content:"";background-image: url("../img/22.png"); }
+	.ico23:before{content:"";background-image: url("../img/23.png"); }
+	.ico24:before{content:"";background-image: url("../img/24.png"); }
+	.ico25:before{content:"";background-image: url("../img/25.png"); }
+	.ico26:before{content:"";background-image: url("../img/26.png"); }
+	.ico27:before{content:"";background-image: url("../img/27.png"); }
+	.ico28:before{content:"";background-image: url("../img/28.png"); }
+	.ico29:before{content:"";background-image: url("../img/29.png"); }
+	.ico30:before{content:"";background-image: url("../img/30.png"); }
+	.ico31:before{content:"";background-image: url("../img/31.png"); }
+	.ico32:before{content:"";background-image: url("../img/32.png"); }
+	.ico33:before{content:"";background-image: url("../img/33.png"); }
+	.ico34:before{content:"";background-image: url("../img/34.png"); }
+	.ico35:before{content:"";background-image: url("../img/35.png"); }
+	.ico36:before{content:"";background-image: url("../img/36.png"); }
+	.ico37:before{content:"";background-image: url("../img/37.png"); }
+	.ico38:before{content:"";background-image: url("../img/38.png"); }
+	.ico39:before{content:"";background-image: url("../img/39.png"); }
+	.ico40:before{content:"";background-image: url("../img/40.png"); }
+	.ico41:before{content:"";background-image: url("../img/41.png"); }
+	.ico42:before{content:"";background-image: url("../img/42.png"); }
+	.ico43:before{content:"";background-image: url("../img/43.png"); }
+	.ico44:before{content:"";background-image: url("../img/44.png"); }
+	.ico45:before{content:"";background-image: url("../img/45.png"); }
+	.ico46:before{content:"";background-image: url("../img/46.png"); }
+	.ico47:before{content:"";background-image: url("../img/47.png"); }
+	.ico48:before{content:"";background-image: url("../img/48.png"); }
+	.ico49:before{content:"";background-image: url("../img/49.png"); }
+	.ico50:before{content:"";background-image: url("../img/50.png"); }
+	.ico51:before{content:"";background-image: url("../img/51.png"); }
+	.ico52:before{content:"";background-image: url("../img/52.png"); }
+	.ico53:before{content:"";background-image: url("../img/53.png"); }
+	.ico54:before{content:"";background-image: url("../img/54.png"); }
+	.ico55:before{content:"";background-image: url("../img/55.png"); }
+	.ico56:before{content:"";background-image: url("../img/56.png"); }
+	.ico57:before{content:"";background-image: url("../img/57.png"); }
+	.ico58:before{content:"";background-image: url("../img/58.png"); }
+	.ico59:before{content:"";background-image: url("../img/59.png"); }
+	.ico60:before{content:"";background-image: url("../img/60.png"); }
+	.ico61:before{content:"";background-image: url("../img/61.png"); }
+	.ico62:before{content:"";background-image: url("../img/62.png"); }
+	.ico63:before{content:"";background-image: url("../img/63.png"); }
+	.ico64:before{content:"";background-image: url("../img/64.png"); }
+	.ico65:before{content:"";background-image: url("../img/65.png"); }
+	.ico66:before{content:"";background-image: url("../img/66.png"); }
+	.ico67:before{content:"";background-image: url("../img/67.png"); }
+	.ico68:before{content:"";background-image: url("../img/68.png"); }
+	.ico69:before{content:"";background-image: url("../img/69.png"); }
+	.ico70:before{content:"";background-image: url("../img/70.png"); }
+	.ico71:before{content:"";background-image: url("../img/71.png"); }
+	.ico72:before{content:"";background-image: url("../img/72.png"); }
+	.ico73:before{content:"";background-image: url("../img/73.png"); }
+	.ico74:before{content:"";background-image: url("../img/74.png"); }
+	.ico75:before{content:"";background-image: url("../img/75.png"); }
+	.ico76:before{content:"";background-image: url("../img/76.png"); }
+	.ico77:before{content:"";background-image: url("../img/77.png"); }
+	.ico78:before{content:"";background-image: url("../img/78.png"); }
+	.ico79:before{content:"";background-image: url("../img/79.png"); }
+	.ico80:before{content:"";background-image: url("../img/80.png"); }
+	.ico81:before{content:"";background-image: url("../img/81.png"); }
+	.ico82:before{content:"";background-image: url("../img/82.png"); }
+	.ico83:before{content:"";background-image: url("../img/83.png"); }
+	.ico84:before{content:"";background-image: url("../img/84.png"); }
+	.ico85:before{content:"";background-image: url("../img/85.png"); }
+	.ico86:before{content:"";background-image: url("../img/86.png"); }
+	.ico87:before{content:"";background-image: url("../img/87.png"); }
+	.ico88:before{content:"";background-image: url("../img/88.png"); }
+	.ico89:before{content:"";background-image: url("../img/89.png"); }
+	.ico90:before{content:"";background-image: url("../img/90.png"); }
+	.ico91:before{content:"";background-image: url("../img/91.png"); }
+	.ico92:before{content:"";background-image: url("../img/92.png"); }
+	.ico93:before{content:"";background-image: url("../img/93.png"); }
+	.ico94:before{content:"";background-image: url("../img/94.png"); }
+	.ico95:before{content:"";background-image: url("../img/95.png"); }
+	.ico96:before{content:"";background-image: url("../img/96.png"); }
+	.ico97:before{content:"";background-image: url("../img/97.png"); }
+	.ico98:before{content:"";background-image: url("../img/98.png"); }
+	.ico99:before{content:"";background-image: url("../img/99.png"); }
+	.ico100:before{content:"";background-image: url("../img/100.png"); }
+
+/*--------------------------------- 
+Botones
+---------------------------------*/
+boton{margin:.125rem;cursor:pointer; text-decoration:none; text-align:center; font-weight:bold; display:inline-block;  list-style: none; transition:all .2s ease; box-sizing:border-box;}
+boton:hover{ border-radius:.5rem; transition:all .2s ease; border:solid #eee; border-width: 0px 1px 2px 1px;}
+boton:active{ color:#fff;}
+	/*--------------------------------- 
+	tamaños
+	---------------------------------*/
+	.boton_small{font-size:1rem; padding:0.5rem;}
+	.boton_medium{font-size:1.5rem; padding:0.5rem;}
+	.boton_big{font-size:2rem; padding:0.5rem;}

@@ -1,0 +1,13 @@
+/*---------------------------------
+Colores Personalizados - Bootstrap
+---------------------------------*/
+.amarillo{color:#ffea78;} .fondo_amarillo{background-color:#fff159;} .borde_amarillo{}
+.azul{color:#007aff;} .fondo_azul{background-color:#007aff;} .borde_azul{}
+.azul2{color:#34aadc;} .fondo_azul2{background-color:#34aadc;} .borde_azul2{}
+.rojo{color:#db4a39;} .fondo_rojo{background-color:#db4a39;} .borde_rojo{}
+.verde{color:#4cd964;} .fondo_verde{background-color:#4cd964;} .borde_verde{}
+.naranja{color:#ffa420;} .fondo_naranja{background-color:#ffa420;} .borde_naranja{}
+.morado{color:#A33E9F;} .fondo_morado{background-color:#A33E9F;} .borde_morado{}
+.negro{color:#333333;} .fondo_negro{background-color:#333333;}
+.gris{color:#c7c7cc;} .fondo_gris{background-color:#c7c7cc;} .borde_gris{}
+.blanco{color:#fff;} .fondo_blanco{background-color:#fff;} .borde_blanco{border:solid 1.5px #fff;}
